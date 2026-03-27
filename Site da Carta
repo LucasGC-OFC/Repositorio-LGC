@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta ao Leitor Por Lucas GC.</title>
 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    main {
+      background: #fff;
+      max-width: 700px;
+      padding: 40px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      line-height: 1.6;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .texto {
+      text-indent: 40px;
+      text-align: justify;
+    }
+
+    footer {
+      text-align: right;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Carta ao Leitor</h1>
+
+    <p>La Mancha, em um dia indeterminado de uma das nobres primaveras de meados do século XVI.</p>
+    <p><strong>Ó soberana Dulcineia,</strong></p>
+
+    <p class="texto">
+      Luz que guia meus passos e razão de minhas mais nobres batalhas, escrevo-lhe com o coração inflamado pela mais pura devoção. Em cada gigante que enfrento ainda que os outros o chamem de moinho vejo apenas a oportunidade de provar meu valor diante de vossa incomparável graça. Saiba que nenhuma lança se ergue, nem cavalo galopa, sem que teu nome ecoe em minha alma como um juramento eterno. Ainda que o mundo duvide, ainda que zombem de minha jornada, meu amor por vós permanece invencível, como as mais firmes fortalezas que ouso conquistar. Que os ventos levem estas palavras até ti, como levam meus pensamentos, que jamais se afastam de tua imagem.
+    </p>
+
+    <footer>
+      <p>Teu eterno cavaleiro,</p>
+      <p><strong>Dom Quixote de La Mancha</strong></p>
+    </footer>
+  </main>
+</body>
+</html>
