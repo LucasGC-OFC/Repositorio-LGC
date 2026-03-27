@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<style>
+body {
+    margin: 0;
+    height: 190vh;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background: #565656;
+    border-radius: 8px;
+}
+
+.pagination a:hover,
+.pagination a.active {
+    background: #000;
+}
+</style>
+</head>
+
+<body>
+
+<div class="pagination">
+    <a href="#">&lt;&lt;</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">&gt;&gt;</a>
+</div>
+
+<script>
+document.querySelector('.pagination').onclick = e => {
+    if (e.target.tagName === 'A') {
+        e.preventDefault();
+        document.querySelector('.active')?.classList.remove('active');
+        e.target.classList.add('active');
+    }
+};
+</script>
+
+</body>
+</html>
